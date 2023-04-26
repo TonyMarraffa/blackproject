@@ -1,0 +1,139 @@
+*{
+    font-family: 'Jura', 'Orbitron';
+}
+
+body{
+    background-color: #000000;
+}
+
+:root{
+    --main:rgb(0, 0, 0);
+    --sec: #2B9DF4;
+}
+
+.navbar{
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.riga{
+    border: solid 1px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 65px;
+}
+
+header{
+    height: 660px;
+    background: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.341), rgb(0, 0, 0)), url(./media/moon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'orbitron';
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 23px;
+}
+
+.bi-chevron-down{
+    color: var(--sec);
+    font-size: 3rem;
+}
+
+.section1{
+    margin-top: 175px;
+}
+
+.card{
+    background-color: #000000;
+    margin-top: 25px;
+}
+
+.numero{
+    font-family: 'orbitron';
+    font-size: 55px;
+}
+
+hr{
+    color: var(--sec);
+    border: solid 1px;
+    opacity: 100;
+}
+
+.section2{
+    margin-top: 200px;
+    width: 98%;
+}
+
+h2{
+    color: var(--sec);
+}
+
+.bi-rocket-takeoff{
+    color: var(--sec);
+    font-size: 22px;
+}
+
+.section3{
+    margin-top: 175px;
+}
+
+.card2{
+    width: 350px;
+    margin-top: 35px;
+}
+
+.section4{
+    margin-top: 200px;
+}
+
+.icone{
+   color: var(--sec); 
+   font-size: 22px;
+}
+
+.section5{
+    margin-top: 170px;
+}
+
+.testoSec5{
+    font-size: 17px;
+}
+
+.btn{
+    color: white;
+    border: solid 5px var(--sec);
+    width: 150px;
+}
+
+.card3{
+    margin-top: 40px;
+}
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.886), rgba(0, 0, 0, 0.341), rgb(0, 0, 0)), url(./media/sunrise-1765027_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 170px;
+}
+
+.hrFooter{
+    margin-top: 25px;
+    border: solid 3px; 
+    color: var(--sec);
+
+}
